@@ -1,6 +1,6 @@
-<img src="https://botfaqtor.ru/docs/landing/img/logo.svg" alt="drawing" width="150"/>
+<img src="https://botfaqtor.ru/docs/landing/img/logo.svg" alt="drawing" width="150" align="left"> <img src="https://botfaqtor.ru/docs/landing/img/gtm.png" alt="drawing" width="50" align="right">
 
-<img src="https://botfaqtor.ru/docs/landing/img/gtm.png" alt="drawing" width="13"/>  Шаблон для google tag manager создан для удобного размещения кода Botfaqtor на сайт.
+Шаблон для google tag manager создан для удобного размещения кода Botfaqtor на сайт.
 
 -------------------------
 :link: Страница сервиса: https://botfaqtor.ru
