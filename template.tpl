@@ -50,8 +50,9 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
+const generateRandom = require('generateRandom');
 
-const url = 'https://scripts.witstroom.com/one/' + data.siteId;
+const url = 'https://scripts.witstroom.com/one/' + data.siteId + '?' + generateRandom(1, 99999);
 injectScript(url,
              function(){ data.gtmOnSuccess();},
              function(){ data.gtmOnFailure();}
@@ -96,7 +97,7 @@ scenarios:
 - name: Untitled test 1
   code: |-
     const mockData = {
-      siteId: 988
+      siteId: 3
     };
 
     // Call runCode to run the template's code.
@@ -109,6 +110,6 @@ setup: ''
 
 ___NOTES___
 
-Created on 22.10.2020, 09:29:19
+Created on 22.10.2020, 13:52:55
 
 
