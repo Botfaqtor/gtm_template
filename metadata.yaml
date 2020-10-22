@@ -1,0 +1,5 @@
+homepage: "https://botfaqtor.ru"
+documentation: "https://botfaqtor.ru/docs/gtm-template"
+versions:
+  - sha: 505d405b6ce579294fb5b5520a275a7a5adf7ee7
+    changeNotes: Initial release.
