@@ -19,3 +19,9 @@
 
 **Необходимые триггеры:**
 - _All Pages_<br>Для работы скрипта мониторинга на всех страницах целевого сайта.
+
+-------------------------
+
+**Скриншоты:**
+
+<img src="https://botfaqtor.ru/docs/gtm-template/screen-gtm.png" alt="drawing" width="900"/>
