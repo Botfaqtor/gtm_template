@@ -1,4 +1,4 @@
-<img src="https://botfaqtor.ru/docs/landing/img/logo.svg" alt="drawing" width="150" align="left"> <img src="https://botfaqtor.ru/docs/landing/img/gtm.png" alt="drawing" width="50" align="right"><br></br>
+<img src="https://botfaqtor.ru/docs/landing/img/logo.svg" alt="drawing" width="160" align="left"> <img src="https://botfaqtor.ru/docs/landing/img/gtm.png" alt="drawing" width="50" align="right"><br></br>
 <br>
 
 Шаблон для google tag manager создан для удобного размещения кода Botfaqtor на сайт.
