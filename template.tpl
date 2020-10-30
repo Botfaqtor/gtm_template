@@ -53,7 +53,7 @@ const injectScript = require('injectScript');
 const generateRandom = require('generateRandom');
 const encodeUriComponent = require('encodeUriComponent');
 
-const url = 'https://scripts.witstroom.com/one/' + encodeUriComponent(data.siteId) + '?' + generateRandom(1, 99999);
+const url = 'https://scripts.witstroom.com/one/' + encodeUriComponent(data.siteId.toString()) + '?' + generateRandom(1, 99999);
 injectScript(url,
              function(){ data.gtmOnSuccess();},
              function(){ data.gtmOnFailure();}
@@ -111,6 +111,6 @@ setup: ''
 
 ___NOTES___
 
-Created on 30.10.2020, 15:25:55
+Created on 30.10.2020, 15:40:30
 
 
