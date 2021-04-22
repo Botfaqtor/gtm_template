@@ -50,10 +50,9 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
-const generateRandom = require('generateRandom');
 const encodeUriComponent = require('encodeUriComponent');
 
-const url = 'https://scripts.witstroom.com/one/' + encodeUriComponent(data.siteId.toString()) + '?' + generateRandom(1, 99999);
+const url = 'https://scripts.witstroom.com/one/' + encodeUriComponent(data.siteId.toString());
 injectScript(url,
              function(){ data.gtmOnSuccess();},
              function(){ data.gtmOnFailure();}
