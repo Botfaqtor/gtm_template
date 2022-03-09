@@ -52,7 +52,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const injectScript = require('injectScript');
 const encodeUriComponent = require('encodeUriComponent');
 
-const url = 'https://scripts.witstroom.com/one/' + encodeUriComponent(data.siteId.toString());
+const url = 'https://scripts.botfaqtor.ru/one/' + encodeUriComponent(data.siteId.toString());
 injectScript(url,
              function(){ data.gtmOnSuccess();},
              function(){ data.gtmOnFailure();}
@@ -76,7 +76,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://scripts.witstroom.com/one/*"
+                "string": "https://scripts.botfaqtor.ru/one/*"
               }
             ]
           }
