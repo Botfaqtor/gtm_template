@@ -2,5 +2,5 @@ homepage: "https://botfaqtor.ru"
 documentation: "https://botfaqtor.ru/docs/gtm-template"
 versions:
 # Latest version
-  - sha: 865f2e3a4457c3d0a8c5c3d0b3976786215ff7f6
+  - sha: 9f70a47d7d5472b928cf31c3d4bb5d42c6c1eca6
     changeNotes: [!] changed url to botfaqtor.ru
