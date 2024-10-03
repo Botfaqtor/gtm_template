@@ -11,7 +11,7 @@ ___INFO___
 {
   "type": "TAG",
   "id": "cvt_temp_public_id",
-  "version": 1.2,
+  "version": 1.1,
   "securityGroups": [],
   "displayName": "Botfaqtor code",
   "categories": [
@@ -56,11 +56,12 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const injectScript = require('injectScript');
 const encodeUriComponent = require('encodeUriComponent');
 
-const url = 'https://scripts.botfaqtor.ru/one/' + encodeUriComponent(data.siteId.toString());
-injectScript(url,
-             function(){ data.gtmOnSuccess();},
-             function(){ data.gtmOnFailure();}
-             );
+injectScript('https://cdn.botfaqtor.ru/one.js', function(window) {
+  window._ab_id_ = encodeUriComponent(data.siteId.toString());
+  data.gtmOnSuccess();
+}, function() {
+  data.gtmOnFailure();
+});
 
 
 ___WEB_PERMISSIONS___
@@ -115,5 +116,3 @@ setup: ''
 ___NOTES___
 
 Created on 30.10.2020, 15:40:30
-
-
