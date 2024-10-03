@@ -81,7 +81,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://scripts.botfaqtor.ru/one/*"
+                "string": "https://cdn.botfaqtor.ru/one.js"
               }
             ]
           }
