@@ -2,9 +2,11 @@ homepage: "https://botfaqtor.ru"
 documentation: "https://botfaqtor.ru/docs/gtm-template"
 versions:
   # Latest version  
+  - sha: a2c9bb28f8aee5d5120fc2ccf8e2a788c0745b93
+    changeNotes: update code  
+  # Older versions
   - sha: 5853e4df37be322ffee97f2b157937604e8b771f
     changeNotes: the link to the script has been changed
-  # Older versions
   - sha: 291bc6526f50619981f0bda50b68e1157135d11e
     changeNotes: switching to cdn  
   - sha: 1fac3aa2e62b007dfa7d9688f1895850262f2eb5
